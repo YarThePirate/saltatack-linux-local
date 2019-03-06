@@ -1,5 +1,5 @@
-virtualization:
-  pkg.installed:
+remove_virtualization_software:
+  pkg.removed:
     - pkgs:
       - virtualbox
       - vagrant
